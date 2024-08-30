@@ -1,0 +1,58 @@
+2024-08-30 14:24:39,150 DEBUG cd frappe-bench && python3 -m venv env
+2024-08-30 14:24:43,771 DEBUG cd frappe-bench && /home/basilisa/Desktop/library/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-08-30 14:24:47,156 DEBUG cd frappe-bench && /home/basilisa/Desktop/library/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-08-30 14:24:50,166 LOG Getting frappe
+2024-08-30 14:24:50,167 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2024-08-30 14:25:11,781 LOG Installing frappe
+2024-08-30 14:25:11,781 DEBUG cd /home/basilisa/Desktop/library/frappe-bench && /home/basilisa/Desktop/library/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/basilisa/Desktop/library/frappe-bench/apps/frappe 
+2024-08-30 14:26:11,685 DEBUG cd /home/basilisa/Desktop/library/frappe-bench/apps/frappe && yarn install --check-files
+2024-08-30 14:26:32,656 DEBUG cd /home/basilisa/Desktop/library/frappe-bench && supervisorctl restart frappe:
+2024-08-30 14:26:32,979 WARNING cd /home/basilisa/Desktop/library/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2024-08-30 14:26:32,979 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-08-30 14:26:32,980 DEBUG cd frappe-bench && bench build
+2024-08-30 14:26:33,168 INFO /home/basilisa/.local/bin/bench build
+2024-08-30 14:26:59,185 LOG setting up backups
+2024-08-30 14:26:59,210 LOG backups were set up
+2024-08-30 14:26:59,211 INFO Bench frappe-bench initialized
+2024-08-30 14:26:59,875 INFO A newer version of bench is available: 5.22.6 → 5.22.8
+2024-08-30 14:28:09,590 INFO /home/basilisa/.local/bin/bench new-site library.com
+2024-08-30 15:47:01,672 INFO /home/basilisa/.local/bin/bench --site library.com add-to-hosts
+2024-08-30 15:47:55,367 INFO /home/basilisa/.local/bin/bench get-app https://github.com/frappe/erpnext --branch version-14
+2024-08-30 15:47:55,393 LOG Getting erpnext
+2024-08-30 15:47:55,393 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext --branch version-14 --depth 1 --origin upstream
+2024-08-30 15:48:40,107 LOG Installing erpnext
+2024-08-30 15:48:40,107 DEBUG cd /home/basilisa/Desktop/library/frappe-bench && /home/basilisa/Desktop/library/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/basilisa/Desktop/library/frappe-bench/apps/erpnext 
+2024-08-30 15:48:51,871 DEBUG cd /home/basilisa/Desktop/library/frappe-bench/apps/erpnext && yarn install --check-files
+2024-08-30 15:48:52,863 DEBUG bench build --app erpnext
+2024-08-30 15:48:53,048 INFO /home/basilisa/.local/bin/bench build --app erpnext
+2024-08-30 15:49:00,413 DEBUG cd /home/basilisa/Desktop/library/frappe-bench && supervisorctl restart frappe:
+2024-08-30 15:49:00,668 WARNING cd /home/basilisa/Desktop/library/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2024-08-30 15:49:00,668 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-08-30 15:49:01,282 INFO A newer version of bench is available: 5.22.6 → 5.22.8
+2024-08-30 15:49:31,506 INFO /home/basilisa/.local/bin/bench --site library.com install-app erpnext
+2024-08-30 15:50:12,588 INFO /home/basilisa/.local/bin/bench --site library.com install-app library management system
+2024-08-30 15:50:19,129 INFO /home/basilisa/.local/bin/bench --site library.com install-app library management
+2024-08-30 15:50:51,332 INFO /home/basilisa/.local/bin/bench new-app library_management
+2024-08-30 15:50:51,339 LOG creating new app library_management
+2024-08-30 15:51:31,443 LOG Installing library_management
+2024-08-30 15:51:31,445 DEBUG cd /home/basilisa/Desktop/library/frappe-bench && /home/basilisa/Desktop/library/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/basilisa/Desktop/library/frappe-bench/apps/library_management 
+2024-08-30 15:51:34,486 DEBUG bench build --app library_management
+2024-08-30 15:51:34,689 INFO /home/basilisa/.local/bin/bench build --app library_management
+2024-08-30 15:51:40,485 DEBUG cd /home/basilisa/Desktop/library/frappe-bench && supervisorctl restart frappe:
+2024-08-30 15:51:40,755 WARNING cd /home/basilisa/Desktop/library/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2024-08-30 15:51:40,755 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-08-30 15:51:41,391 INFO A newer version of bench is available: 5.22.6 → 5.22.8
+2024-08-30 15:52:37,341 INFO /home/basilisa/.local/bin/bench --site library.com install-app library_management
+2024-08-30 15:53:04,845 INFO /home/basilisa/.local/bin/bench --site library.test list-apps
+2024-08-30 15:53:13,193 INFO /home/basilisa/.local/bin/bench --site library.com list-apps
+2024-08-30 15:53:47,517 INFO /home/basilisa/.local/bin/bench start
+2024-08-30 15:53:48,016 INFO /home/basilisa/.local/bin/bench watch
+2024-08-30 15:53:48,142 INFO /home/basilisa/.local/bin/bench serve --port 8000
+2024-08-30 15:53:48,206 INFO /home/basilisa/.local/bin/bench schedule
+2024-08-30 15:53:48,237 INFO /home/basilisa/.local/bin/bench worker
+2024-08-30 15:54:19,920 INFO /home/basilisa/.local/bin/bench use library.com
+2024-08-30 15:54:22,496 INFO /home/basilisa/.local/bin/bench start
+2024-08-30 15:54:23,095 INFO /home/basilisa/.local/bin/bench worker
+2024-08-30 15:54:23,104 INFO /home/basilisa/.local/bin/bench watch
+2024-08-30 15:54:23,171 INFO /home/basilisa/.local/bin/bench schedule
+2024-08-30 15:54:23,210 INFO /home/basilisa/.local/bin/bench serve --port 8000

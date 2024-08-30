@@ -1,0 +1,681 @@
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:57: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:71: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/basilisa/Desktop/library/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
